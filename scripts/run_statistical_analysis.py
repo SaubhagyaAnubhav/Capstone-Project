@@ -11,11 +11,11 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import seaborn as sns
 import scipy.stats as stats
-from scipy.stats import chi2_contingency, pearsonr, mannwhitneyu, f_oneway, shapiro
+from scipy.stats import pearsonr, f_oneway, shapiro
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression, LogisticRegression
-from sklearn.metrics import mean_squared_error, r2_score, classification_report
+from sklearn.metrics import mean_squared_error, r2_score
 from pathlib import Path
 import warnings
 warnings.filterwarnings('ignore')
